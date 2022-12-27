@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.13
+  - pip==22.2.2
+  - pip:
+    - pandas==1.4.4
+    - numpy==1.21.5
+    - ipykernel==6.15.2
+    - scikit-learn==1.0.2
+    - imbalanced-learn==3.6.2
+    - matplotlib==0.10.0
+    - darts
+    - matplotlib
+    - kaggle
